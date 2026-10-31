@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>لغة CSS ولمسات الجمال</title>
+  <style>
+    body { font-family: Tahoma, Arial, sans-serif; line-height: 1.9; margin: 0; background: #f4f7fb; color: #243047; }
+    header { background: linear-gradient(135deg, #173b70, #3978bd); color: white; text-align: center; padding: 38px 18px; }
+    header h1 { margin: 0 0 12px; font-size: 30px; }
+    header p { margin: 5px 0; }
+    main { max-width: 950px; margin: 24px auto; padding: 0 16px; }
+    section { background: white; margin: 18px 0; padding: 22px; border-radius: 14px; box-shadow: 0 3px 14px #1c355015; }
+    h2 { color: #205b98; border-right: 5px solid #5b9bd5; padding-right: 10px; }
+    h3 { color: #315f8d; }
+    .hero-img { display: block; width: 100%; max-width: 650px; margin: 18px auto; border-radius: 12px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 14px; }
+    th, td { border: 1px solid #cbd7e5; padding: 10px; text-align: right; }
+    th { background: #e7f1fb; }
+    a { color: #1769aa; }
+    footer { text-align: center; padding: 20px; color: #64748b; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>لغة CSS ولمسات الجمال</h1>
+    <p>دورها في تغيير ألوان وخطوط وتصميم صفحات الويب لتبدو جذابة للمستخدم</p>
+    <p><strong>إعداد الطالبة:</strong> هاجر احمد الحسيني احمد فاضل</p>
+    <p><strong>الرقم الجامعي:</strong> 2501292 | <strong>رقم السكشن:</strong> 169</p>
+    <p><strong>الفرقة الدراسية:</strong> الثانية | <strong>المقرر:</strong> تطبيقات الإنترنت والمنصات الإلكترونية</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>المقدمة</h2>
+      <p>شهدت شبكة الإنترنت تطورًا هائلًا منذ نشأتها في أوائل التسعينيات. في البداية كانت صفحات الويب عبارة عن مستندات نصية بسيطة تعتمد فقط على لغة HTML، وكانت تظهر بلون أسود على خلفية بيضاء بدون أي تنسيق أو جمال، وكانت التجربة مملة جدًا للمستخدم.</p>
+      <p>مع زيادة عدد المواقع وتنافس الشركات على جذب المستخدمين، ظهرت الحاجة الملحة إلى لغة تهتم بالناحية الجمالية والبصرية. هنا ظهرت لغة <strong>CSS</strong>، وهي اختصار لـ <strong>Cascading Style Sheets</strong> وتعني أوراق الأنماط المتتالية.</p>
+      <p>تم اقتراح الفكرة بواسطة Håkon Wium Lie في عام 1994، وتم إصدار أول نسخة رسمية CSS1 في ديسمبر 1996 من قبل منظمة W3C. بعدها تطورت إلى CSS2 عام 1998 ثم CSS3 التي نستخدمها اليوم.</p>
+      <p>فكرة CSS بسيطة لكنها عبقرية: فصل المحتوى عن الشكل؛ بمعنى أن HTML تكتب الكلام، وCSS تلبسه وتزينه. أهمية دراسة CSS أنها أساس لتصميم منصات الويب الحديثة.</p>
+    </section>
+
+    <section>
+      <h2>عرض الموضوع</h2>
+      <img class="hero-img" src="css-image.jpg" alt="صورة توضيحية للغتي HTML وCSS وتصميم صفحات الويب">
+      <h3>أولًا: كيف تعمل لغة CSS؟</h3>
+      <p>تعتمد CSS على قاعدة بسيطة تتكون من ثلاثة أجزاء:</p>
+      <ul>
+        <li><strong>المحدد (Selector):</strong> العنصر الذي نريد تنسيقه مثل p أو h1 أو div.</li>
+        <li><strong>الخاصية (Property):</strong> مثل color أو font-size.</li>
+        <li><strong>القيمة (Value):</strong> مثل red أو 20px.</li>
+      </ul>
+      <p>مثال: <code>h1 { color: blue; text-align: center; font-size: 32px; }</code></p>
+      <p>يعني ذلك جعل العناوين الرئيسية باللون الأزرق وفي المنتصف وبحجم 32 بكسل.</p>
+
+      <h3>ثانيًا: أهم الخصائص الجمالية في CSS</h3>
+      <p><strong>الألوان والخلفيات:</strong> يمكن استخدام أسماء الألوان أو أكواد HEX مثل #FF0000 أو RGB، كما يمكن عمل تدرج لوني باستخدام linear-gradient ووضع صور كخلفية.</p>
+      <p><strong>الخطوط والنصوص:</strong> تتحكم CSS في نوع الخط مثل Arial وCairo، وحجم الخط وسمكه وميله والمسافة بين الحروف والسطور، وهذا مهم لراحة عين القارئ.</p>
+      <p><strong>نموذج الصندوق (Box Model):</strong> كل عنصر في الصفحة هو صندوق مستطيل يتكون من المحتوى (Content)، والحشو الداخلي (Padding)، والحدود (Border)، والهامش الخارجي (Margin).</p>
+      <p><strong>التخطيط والترتيب (Layout):</strong> تساعد Flexbox على ترتيب العناصر في صف أو عمود بمرونة، بينما تساعد Grid على تقسيم الصفحة إلى شبكة.</p>
+      <p><strong>التصميم المتجاوب (Responsive Design):</strong> تسمح Media Queries بتغيير شكل الصفحة حسب عرض الشاشة لتناسب الهاتف والكمبيوتر.</p>
+      <p><strong>الحركات والانتقالات (Animation):</strong> تسمح CSS بعمل حركات جميلة؛ مثل تكبير الزر أو تغيير لونه بسلاسة باستخدام transition.</p>
+
+      <h3>ثالثًا: طرق إضافة CSS</h3>
+      <ol>
+        <li><strong>Inline:</strong> داخل العنصر نفسه باستخدام الخاصية style.</li>
+        <li><strong>Internal:</strong> داخل وسم style في رأس الصفحة.</li>
+        <li><strong>External:</strong> في ملف خارجي، ويتم ربطه بالصفحة باستخدام وسم link، وهي الطريقة الاحترافية لأنها تسمح بتغيير شكل صفحات الموقع من ملف واحد.</li>
+      </ol>
+
+      <h3>مثال عملي يوضح قوة CSS</h3>
+      <p>تخيل متجرًا إلكترونيًا. زر «اشترِ الآن» بدون CSS سيكون مجرد نص أزرق تحته خط. لكن مع CSS يمكن تحويله إلى زر أخضر جذاب بحواف دائرية وظل، وعند مرور الماوس عليه يكبر ويضيء، مما يشجع العميل على الشراء.</p>
+    </section>
+
+    <section>
+      <h2>جدول يلخص بعض خصائص CSS</h2>
+      <table>
+        <tr><th>الخاصية أو التقنية</th><th>وظيفتها</th></tr>
+        <tr><td>color</td><td>تغيير لون النص.</td></tr>
+        <tr><td>background</td><td>تحديد خلفية العنصر.</td></tr>
+        <tr><td>font-family و font-size</td><td>تحديد نوع الخط وحجمه.</td></tr>
+        <tr><td>Padding و Margin</td><td>التحكم في المسافات حول المحتوى.</td></tr>
+        <tr><td>Flexbox و Grid</td><td>ترتيب العناصر وتنظيم تخطيط الصفحة.</td></tr>
+        <tr><td>Media Queries</td><td>جعل التصميم مناسبًا لأحجام الشاشات المختلفة.</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>الخاتمة</h2>
+      <p>في ختام هذا التقرير، نستطيع أن نؤكد أن لغة CSS ليست مجرد لغة مساعدة، بل هي أساس نجاح أي منصة إلكترونية. هي التي تحول الكود الجاف إلى تجربة بصرية ممتعة. تعلمها وفهمها بعمق هو أول خطوة لكل طالب يريد أن يصبح مطور ويب محترف.</p>
+    </section>
+
+    <section>
+      <h2>المراجع</h2>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics" target="_blank" rel="noopener">MDN Web Docs - CSS Basics</a></li>
+        <li><a href="https://www.w3schools.com/css/" target="_blank" rel="noopener">W3Schools - CSS Tutorial</a></li>
+        <li><a href="https://www.hostinger.com/tutorials/what-is-css" target="_blank" rel="noopener">Hostinger Tutorials - What is CSS</a></li>
+        <li><a href="https://www.geeksforgeeks.org/css-introduction/" target="_blank" rel="noopener">GeeksforGeeks - Introduction to CSS</a></li>
+        <li>منصة إدراك - مساق مقدمة في تطوير الويب.</li>
+      </ul>
+    </section>
+  </main>
+  <footer>إعداد الطالبة: هاجر احمد الحسيني احمد فاضل</footer>
+</body>
+</html>
